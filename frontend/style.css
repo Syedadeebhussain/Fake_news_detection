@@ -1,0 +1,99 @@
+/* frontend/style.css */
+body {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.glass {
+  background: rgba(30, 30, 47, 0.6);
+  backdrop-filter: blur(12px);
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+p {
+  color: #d1d1d1;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  resize: none;
+  margin-bottom: 20px;
+  background: #fff;
+  color: #000;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #00c9a7;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00a58a;
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #ffffffb3;
+  text-align: center;
+  font-weight: 300;
+}
+
+footer span {
+  color: #ff4e50;
+  font-size: 18px;
+}
